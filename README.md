@@ -2,13 +2,28 @@
 
 This is an open source project that is dedicated to the hacktober fest for the year 2022. 
 
-You can add any kind of projects in the Web Development.
+### Languages Supported
 
-**Rules to be taken care of:**
+You can add any kind of projects in the languages that are mentioned below:
 
-1. The PR would not be merged if not mentiond in the server.
+* C
 
-2. DSA problem-solution would not be accepted.
+* C++
+
+* C#
+
+* PHP
+
+* Java
+
+* Python
+
+* Ruby
+
+* Javascript
+
+* WebDev
+
 
 Do drop a follow if you like my work 😀
 
