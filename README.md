@@ -1,4 +1,4 @@
-# HacktoberFest2022-WEB-DEV
+# HacktoberFest2022
 
 This is an open source project that is dedicated to the hacktober fest for the year 2022. 
 
