@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*>*{
+    font-family: 'Ubuntu Mono', monospace;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: transparent !important;
+    padding: 1% 2%;
+    position: fixed;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15% !important;
+    font-size: xx-large !important;
+    font-weight: 400 !important;
+}
+
+a{
+    color:beige !important;
+}
+.navbar-brand{
+    font-weight:700;
+    font-size:x-large ; 
+}
+.chd{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.nav-link:hover{
+    font-weight: 700;
+    text-decoration: underline;
+    transition: ease-in;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    font-size: 1em;
+    z-index: 1000;
+}
+.btnd{
+    width: 100%;text-align: center;
+}
+.navbar-toggler {
+    border-color: beige !important;
+}
+.navbar-toggler-icon{
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}

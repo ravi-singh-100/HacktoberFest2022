@@ -1,0 +1,24 @@
+<%- include('partials/header') %>
+
+<div class="jumbotron">
+    <h1 class="display-4 centered-top successmsg reg">Your Secret is safe with us!!</h1>
+    <p class="lead success">All the secrets you submit are anonymous. No one will ever know you posted anything (not even me XD).</p>
+    <hr class="my-4">
+    <div class="success">
+      <p style="text-align: center;">You can view all the secrets by clicking View...</p>
+
+    </div>
+    
+    <form action="/confessions">
+      <div class="btns">
+        <button
+            type="submit"
+            class="btn btn-dark transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500">
+            Secrets
+        </button>
+      </div>
+    </form>
+
+  </div>
+
+<%- include('partials/footer') %>

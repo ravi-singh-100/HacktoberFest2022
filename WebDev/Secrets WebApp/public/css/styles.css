@@ -1,0 +1,168 @@
+body {
+    background-color: black;
+    color: #fff;
+    margin: 2% 4%;
+    min-height: 100vh;
+}
+.centered {
+    padding-top: 200px;
+    text-align: center;
+    background-color: #000;
+    color: beige;
+}
+* > * {
+    font-family: "Ubuntu Mono", monospace;
+}
+.centered-top {
+    text-align: center;
+}
+
+.success
+{
+    color: #000;
+}
+
+.successmsg
+{
+    color: #000;
+    font-size: 2rem;
+}
+
+.secret-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+}
+
+.footer-padding {
+    padding-bottom: 0%;
+    background-color: #000;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    font-size: 1em;
+    background-color: #000;
+    z-index: 1000;
+}
+.footer p {
+    font-size: large;
+    color: beige;
+    background-color: #000;
+}
+.confessions {
+    width: 60%;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.align {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar {
+    background-color: transparent !important;
+}
+nav a {
+    color: beige !important;
+}
+.faq {
+    text-align: center;
+    margin-top: 1%;
+}
+
+.faqcontact {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 2rem;
+}
+
+.margtop
+{
+    margin-top: 25px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+.cen {
+    display: flex !important ;
+    justify-content: center;
+}
+.reg {
+    text-align: center;
+}
+
+.regcont {
+    text-align: center;
+    font-size: 25px;
+}
+
+.guidelineshead
+{
+    font-size: x-large;
+    margin-bottom: 35px;
+}
+
+.bullet-padding
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.regq {
+    text-align: right;
+}
+.card {
+    background-color: transparent;
+    border: 1px solid slategray;
+}
+input:focus {
+    outline: black;
+    border: none;
+}
+.btns {
+    text-align: center;
+}
+
+.btnsq {
+    text-align: left;
+}
+
+.qwert
+{
+    padding-top: 1px;
+}
+
+.google {
+    border-radius: 7px;
+    scale: 0.9;
+    background-color: #4082ed;
+}
+.bgoogle {
+    font-weight: 700;
+    background-color: #4082ed;
+    color: #fff;
+}
+.google:hover,
+.bgoogle:hover {
+    color: #fff;
+    background-color: #1162e2;
+}
+.nav-link:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    transition: ease-in;
+}
