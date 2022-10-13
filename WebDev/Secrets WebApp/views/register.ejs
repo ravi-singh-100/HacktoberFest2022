@@ -1,0 +1,60 @@
+<%- include('partials/header') %>
+<div class="container mt-5">
+    <h2 display-4 class="reg">Register</h2>
+    <div class="row cen">
+        <div class="col-sm-8 back">
+            <div class="card">
+                <div class="card-body">
+                    <!-- Makes POST request to /register route -->
+                    <form action="/register" method="POST">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                class="form-control"
+                                name="username"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input
+                                type="password"
+                                class="form-control"
+                                name="password"
+                                autocomplete="off"
+                            />
+                        </div>
+                        <div class="btns">
+                            <button
+                                type="submit"
+                                class="btn btn-dark transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
+                            >
+                                Register
+                            </button>
+                            <button class="google">
+                                <a
+                                    class="btn bgoogle btn-block"
+                                    href="/auth/google"
+                                    role="button"
+                                >
+                                    <i class="fab fa-google"></i>
+                                    Google
+                                </a>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-sm-4">
+      <div class="card social-block">
+        <div class="card-body">
+
+        </div>
+      </div>
+    </div> -->
+    </div>
+</div>
+
+<%- include('partials/footer') %>
