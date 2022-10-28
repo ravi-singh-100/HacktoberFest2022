@@ -1,0 +1,188 @@
+#title{
+    background-color: #ff4c68;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: azure;
+    padding-bottom: 6%;
+}
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15% 8%;
+}
+
+body{
+    font-family: "Montserrat";
+}
+
+/* navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+
+.nav-item{
+    padding: 0 18px ;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: light;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold   ;
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* front image */
+
+.front-img{
+    width: 19%;
+    transform: rotate(25deg);
+    position: absolute; 
+    right: 25%;
+}
+
+/* features page */
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.works{
+    text-align: center;
+    padding: 5% ;
+}
+
+/* icons */
+.faicon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.faicon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+
+}
+.test-page{
+    width: 10%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+/* press */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.brand-logos{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-card{
+    padding: 3% 2%;
+}
+
+/* tablet-responsive */
+@media (max-width: 1080px){
+    .front-img{
+        position: static;
+        transform: rotate(0);
+        width: 80%;
+    }
+    #title{
+        text-align: center;
+    }
+    .test-page{
+        width: 12%;
+        text-align: center;
+    }
+}
+
+/* actions */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 10%;
+}
+.footerrbutton{
+    margin: 10px 10px -5px 10px;
+    padding-bottom: 10px;  
+}
+
+#footer{
+    text-align: center;
+}
+.socialmedia{
+    color: #36454F;
+    padding: 5px;
+}
+.socials{
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+.footerheader{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding: 0 10%;
+}
+
+/* custom scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px; 
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #F96666;
+    border-radius: 0.5rem;
+  }
